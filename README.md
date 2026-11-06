@@ -27,6 +27,7 @@ The descriptions summarize assessment, reporting, e-invoicing integration, troub
 - [Linux Administration Reference](https://github.com/M0stafaAhmed/Linux-from-Basics-Professional-) — practical Linux administration and security reference.
 - System & Security Log Analyzer — Python/PyQt5 desktop log-analysis utility.
 - Kali Tool Session Logging — in-progress workflow for organizing native tool output and session context.
+- AI-Based Traffic Systems — graduation project combining vehicle recognition, seat-belt detection, and Firebase-backed data handling.
 
 ## Run locally
 

@@ -106,6 +106,12 @@ const PROJECTS = [
         tags:  ['Linux', 'System Administration', 'Markdown', 'Security'],
     },
     {
+        emoji: '🚦',
+        name:  'AI-Based Traffic Systems (Graduation Project)',
+        desc:  'An engineering capstone combining AI-assisted seat-belt detection and vehicle recognition (model, type, and color) with Firebase Realtime Database and Storage protected by authentication rules.',
+        tags:  ['Artificial Intelligence', 'Computer Vision', 'Firebase', 'Realtime Database', 'Traffic Systems'],
+    },
+    {
         emoji: '📊',
         name:  'System & Security Log Analyzer',
         desc:  'A Python and PyQt5 desktop utility for reviewing multiple system and application log sources, filtering events, and investigating errors and anomalies.',
