@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostafa Ahmed | Penetration Testing & Cybersecurity</title>
+    <meta name="description" content="Mostafa Ahmed — penetration testing, cybersecurity, Linux and Windows systems, and technical automation.">
+    <meta name="theme-color" content="#0b0618">
+    <meta property="og:title" content="Mostafa Ahmed | Penetration Testing & Cybersecurity">
+    <meta property="og:description" content="Penetration testing, Linux and Windows systems, network security, and automation.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-initials">MA</div>
+            <div class="loader-bar-wrap">
+                <div class="loader-bar" id="loaderBar"></div>
+            </div>
+            <div class="loader-text">Initializing Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Mostafa<span class="logo-dot">.</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero"       class="nav-link active">Home</a></li>
+                <li><a href="#skills"     class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects"   class="nav-link">Projects</a></li>
+                <li><a href="#notes"      class="nav-link">Field Notes</a></li>
+                <li><a href="#education"  class="nav-link">Education</a></li>
+                <li><a href="#contact"    class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#hero"       class="mobile-link">Home</a></li>
+            <li><a href="#skills"     class="mobile-link">Skills</a></li>
+            <li><a href="#experience" class="mobile-link">Experience</a></li>
+            <li><a href="#projects"   class="mobile-link">Projects</a></li>
+            <li><a href="#notes"      class="mobile-link">Field Notes</a></li>
+            <li><a href="#education"  class="mobile-link">Education</a></li>
+            <li><a href="#contact"    class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         HERO SECTION
+    ══════════════════════════════════════ -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+
+            <!-- LEFT -->
+            <div class="hero-left">
+                <div class="availability-tag reveal-fade">
+                    <span class="pulse-dot"></span>
+                    Available for Opportunities
+                </div>
+
+                <h1 class="hero-name">
+                    <span class="shimmer-text reveal-up">Mostafa</span>
+                    <span class="shimmer-text reveal-up delay-1">Ahmed</span>
+                </h1>
+
+                <p class="hero-subtitle reveal-up delay-2">
+                    Cybersecurity Engineer &nbsp;·&nbsp; Penetration Testing &nbsp;·&nbsp; Network &amp; Systems Security
+                </p>
+
+                <div class="hero-meta reveal-up delay-2">
+                    <span class="meta-chip"><span class="meta-icon">📍</span> Al Mansurah, Egypt</span>
+                    <span class="meta-chip"><span class="meta-icon">🎓</span> B.E. · Communications & Electronics Engineering</span>
+                    <span class="meta-chip"><span class="meta-icon">⌘</span> Python · Linux · Windows</span>
+                </div>
+
+                <div class="hero-cta reveal-up delay-3">
+                    <a href="#contact"    class="btn-primary">Get In Touch</a>
+                    <a href="#experience" class="btn-secondary">View Experience</a>
+                </div>
+            </div>
+
+            <!-- RIGHT – 3D Floating Card -->
+            <div class="hero-right reveal-fade delay-2">
+                <div class="hero-card-wrapper">
+                    <div class="glowing-orb"></div>
+                    <div class="spinning-ring"></div>
+                    <div class="spinning-ring ring-inner"></div>
+                    <div class="hero-card" id="heroCard">
+                        <div class="card-glow-top"></div>
+                        <div class="card-initials">MA</div>
+                        <div class="card-role">Cybersecurity &amp; Network Security</div>
+                        <div class="card-divider"></div>
+                        <div class="card-stats">
+                            <div class="stat">
+                                <span class="stat-num">WEB</span>
+                                <span class="stat-label">Testing</span>
+                            </div>
+                            <div class="stat-sep"></div>
+                            <div class="stat">
+                                <span class="stat-num">LINUX</span>
+                                <span class="stat-label">Systems</span>
+                            </div>
+                            <div class="stat-sep"></div>
+                            <div class="stat">
+                                <span class="stat-num">AD</span>
+                                <span class="stat-label">Identity</span>
+                            </div>
+                        </div>
+                        <div class="card-tag">Cybersecurity Roles · Egypt / Relocation</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         RECENT TECHNICAL FOCUS
+    ══════════════════════════════════════ -->
+    <div class="marquee-section" aria-label="Recent technical focus">
+        <div class="marquee-label">Recent Technical Focus</div>
+        <div class="marquee-track">
+            <div class="marquee-content" id="marqueeContent">
+                <span>Legacy Linux Security Assessment</span><span>Penetration Testing</span><span>Zsh Automation</span><span>Kali Tool Session Logging</span><span>System &amp; Security Log Analysis</span>
+                <span>Legacy Linux Security Assessment</span><span>Penetration Testing</span><span>Zsh Automation</span><span>Kali Tool Session Logging</span><span>System &amp; Security Log Analysis</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══════════════════════════════════════
+         SKILLS SECTION
+    ══════════════════════════════════════ -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">Technical <span class="accent-text">Skills</span></h2>
+                <p class="section-sub">Core focus areas across security testing, systems administration, network analysis, and automation.</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-bars-wrap reveal-left" id="skillBarsWrap"></div>
+                <div class="tech-chips-wrap reveal-right">
+                    <h3 class="chips-title">Tech Stack</h3>
+                    <div class="chips-cloud" id="chipsCloud"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         EXPERIENCE SECTION
+    ══════════════════════════════════════ -->
+    <section id="experience" class="experience-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Career</span>
+                <h2 class="section-title">Work <span class="accent-text">Experience</span></h2>
+                <p class="section-sub">Professional experience across offensive security and enterprise technical solutions.</p>
+            </div>
+            <div class="timeline" id="timeline"></div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         PROJECTS SECTION
+    ══════════════════════════════════════ -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured <span class="accent-text">Projects</span></h2>
+                <p class="section-sub">Selected tools, authorized lab assessments, and engineering projects with clear scope and implementation notes.</p>
+            </div>
+            <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         FIELD NOTES
+    ══════════════════════════════════════ -->
+    <section id="notes" class="notes-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Recent Work &amp; Writing</span>
+                <h2 class="section-title">Field <span class="accent-text">Notes</span></h2>
+                <p class="section-sub">Recent hands-on security work and a foundations-first view of professional cybersecurity development.</p>
+            </div>
+            <div class="notes-grid">
+                <article class="note-card reveal-left">
+                    <span class="note-kicker">Authorized Lab Assessment</span>
+                    <h3>Legacy Linux Security Assessment</h3>
+                    <p>Completed a Kioptrix training-lab assessment focused on the risks of outdated services and weak cryptographic configurations. The exercise reinforced careful enumeration, vulnerability validation, impact assessment, and actionable remediation reporting.</p>
+                    <a href="https://www.linkedin.com/in/mostafa-ahmed-abdelrazik" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a>
+                </article>
+                <article class="note-card reveal-right">
+                    <span class="note-kicker">Technical Perspective</span>
+                    <h3>Build Security on Strong Foundations</h3>
+                    <p>A recent roadmap argues for mastering networking, Linux, programming, and system administration before depending on security tools or certification paths. The focus is on depth, deliberate practice, and demonstrable work.</p>
+                    <a href="https://www.linkedin.com/in/mostafa-ahmed-abdelrazik" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         EDUCATION & LANGUAGES SECTION
+    ══════════════════════════════════════ -->
+    <section id="education" class="education-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Background</span>
+                <h2 class="section-title">Education &amp; <span class="accent-text">Languages</span></h2>
+            </div>
+
+            <div class="edu-lang-grid">
+                <div class="edu-col reveal-left">
+                    <h3 class="col-heading">Education</h3>
+                    <div id="eduCards"></div>
+                    <h3 class="col-heading" style="margin-top:2.5rem;">Training &amp; Course Certificates</h3>
+                    <p class="training-note">Cisco Networking Academy course certificates are listed by course name; these are not the professional CCNA certification.</p>
+                    <div id="certList"></div>
+                </div>
+
+                <div class="lang-col reveal-right">
+                    <h3 class="col-heading">Languages</h3>
+                    <div id="langCards"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         CONTACT SECTION
+    ══════════════════════════════════════ -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Connect</span>
+                <h2 class="section-title">Get In <span class="accent-text">Touch</span></h2>
+                <p class="section-sub">Open to penetration testing and cybersecurity roles in Egypt and internationally.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-left reveal-left" id="contactCards"></div>
+
+                <div class="contact-right reveal-right">
+                    <div class="contact-avatar-wrap">
+                        <div class="ripple-ring r1"></div>
+                        <div class="ripple-ring r2"></div>
+                        <div class="ripple-ring r3"></div>
+                        <div class="contact-avatar">MA</div>
+                    </div>
+                    <p class="contact-tagline">
+                        Focused on penetration testing, systems security, and technical automation.
+                        Open to junior cybersecurity opportunities and relocation.
+                    </p>
+                    <div class="contact-social">
+                        <a href="mailto:Mostafa.Abdelrazik.Engineer@gmail.com" class="social-btn email-btn">Send Email</a>
+                        <a href="https://linkedin.com/in/mostafa-ahmed-abdelrazik" target="_blank" rel="noopener" class="social-btn linkedin-btn">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Mostafa Ahmed &mdash; Built with focus &amp; intent.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
