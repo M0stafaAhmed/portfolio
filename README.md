@@ -58,6 +58,13 @@ Replace the placeholder with the intended Firebase project ID. The Firebase CLI 
 - Lab work is identified as authorized training activity.
 - Do not add credentials, API keys, private keys, customer data, or personal documents to this repository.
 
-## License
+## License and permissions
 
-No open-source license is included. This is a personal portfolio and branding project; no general reuse or redistribution permission is granted.
+This repository is **proprietary; all rights reserved**. You may view it where access is granted. For a public repository, GitHub's Terms of Service permit users to view and fork it on GitHub. Those platform permissions do not grant a general right to reuse, modify, redistribute, sublicense, or commercially exploit the original material outside GitHub.
+
+Obtain prior, express, written permission from the copyright holder before any such use beyond the rights GitHub grants. Sending a request is not approval; wait for written authorization. See [LICENSE](./LICENSE) for the full scope, exclusions, permission-request route, and treatment of earlier license grants.
+
+**Third-party material:** This notice covers only original material that the repository owner owns or is authorized to license. Third-party software, images, fonts, trademarks, curricula, standards, datasets, contributions, and other external content remain subject to their respective rights and terms. This repository does not relicense them.
+
+**Branding boundary:** External services, logos, trademarks, fonts, images, and linked resources remain subject to their own rights and licenses. This notice does not grant permission to reuse personal branding or third-party assets.
+
